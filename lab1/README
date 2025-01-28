@@ -1,1 +1,43 @@
+# Practice Writing Python Code
+
+## Overview
+
+This lab focuses on foundational Python programming skills relevant for cybersecurity analysts. By working through this activity, participants become familiar with writing and running Python code in a notebook environment, commenting code effectively, and using the `print()` function to display information.
+
+## Objectives
+
+The key goals of this lab are:
+- To familiarize users with Python's notebook-based coding environments.
+- To demonstrate how to write, execute, and document Python code using comments.
+- To practice writing and running `print()` statements to display messages.
+
+## Key Tasks and Learnings
+
+1. **Introduction to Markdown and Notebook Environments**  
+   - Learned how to use markdown cells for documentation.
+   - Practiced editing and formatting markdown cells.
+
+2. **Executing Python Code**  
+   - Ran code cells containing Python comments and code.
+   - Observed outputs and understood the role of the `print()` function.
+
+3. **Writing Python Comments**  
+   - Documented the purpose of code using comments.
+   - Learned that comments in Python start with a hash symbol (`#`) and are not executed.
+
+4. **Using `print()` for Output**  
+   - Practiced writing `print()` statements to display strings.
+   - Combined multiple `print()` statements in a single code cell to produce sequential output.
+
+5. **Combining Learned Concepts**  
+   - Integrated all prior tasks into a final code cell that demonstrated the cumulative use of `print()` and comments.
+
+## Example Code from the Lab
+
+Here is an example of a code snippet written during this lab:
+```python
+# Display introductory messages
+print("Hello world!")
+print("I am a security analyst.")
+print("Python is useful for security!")
 
