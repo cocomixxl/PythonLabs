@@ -1,1 +1,42 @@
 
+This Python script is designed to help you practice using regular expressions (regex) to extract specific patterns from strings. The activity focuses on tasks such as extracting device IDs and IP addresses from log files, which are common tasks in cybersecurity. The scenario involves a security analyst who needs to identify devices requiring updates and flag IP addresses associated with unusual activity.
+
+File Content
+The file Activity_Use_regular_expressions_to_find_patterns.py contains the following sections:
+
+Introduction: Explains the importance of regular expressions in cybersecurity, particularly for analyzing log files and detecting devices that require updates.
+
+Tasks:
+
+Task 1: Import the re module to work with regular expressions in Python.
+
+Task 2: Display the contents of a string containing device IDs.
+
+Task 3: Create a regex pattern to find device IDs that start with "r15".
+
+Task 4: Use the re.findall() function to extract device IDs that match the pattern.
+
+Task 5: Display the contents of a log file containing IP addresses.
+
+Task 6: Create a regex pattern to match IP addresses in the form xxx.xxx.xxx.xxx.
+
+Task 7: Use the re.findall() function to extract IP addresses that match the pattern.
+
+Task 8: Adjust the regex pattern to allow for variation in the number of digits in each segment of the IP address.
+
+Task 9: Update the regex pattern to match only valid IP addresses using curly brackets.
+
+Task 10: Display a list of flagged IP addresses that require further analysis.
+
+Task 11: Write an iterative statement to check if each valid IP address is flagged and display the appropriate message.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of regular expressions in extracting and analyzing data.
+
+Key Concepts
+Regular Expressions: Learn how to use regex patterns to match specific strings, such as device IDs and IP addresses.
+
+Regex Symbols: Use symbols like \w, \d, +, and \. to build patterns that match alphanumeric characters, digits, and periods.
+
+re.findall() Function: Extract all matches of a regex pattern from a string.
+
+Iterative Statements: Use loops to iterate through lists and apply conditional logic to check if IP addresses are flagged.
