@@ -1,1 +1,39 @@
+This Python script is designed to help you develop an algorithm that parses a file containing IP addresses allowed to access restricted content and removes those that are no longer allowed. The activity focuses on tasks such as reading and updating file contents, using iterative and conditional statements, and encapsulating the algorithm into a reusable function. The scenario involves a security analyst who needs to automate the process of managing access to restricted content.
 
+File Content
+The file Activity_Create_another_algorithm.py contains the following sections:
+
+Introduction: Explains the importance of controlling access to restricted content and how Python can automate the process of parsing and updating files.
+
+Tasks:
+
+Task 1: Display the contents of the allow_list.txt file and the remove_list of IP addresses to be removed.
+
+Task 2: Open the allow_list.txt file using the with statement and the open() function.
+
+Task 3: Read the contents of the file and store them in a variable named ip_addresses.
+
+Task 4: Convert the ip_addresses string into a list using the .split() method.
+
+Task 5: Build an iterative statement to loop through the ip_addresses list and display each element.
+
+Task 6: Add a conditional statement to remove IP addresses from the ip_addresses list if they are in the remove_list.
+
+Task 7: Convert the updated ip_addresses list back into a string and rewrite the original file.
+
+Task 8: Verify that the file has been updated by reading and displaying its contents.
+
+Task 9: Define a function named update_file() that encapsulates the entire algorithm.
+
+Task 10: Call the update_file() function and verify that it works as expected.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of automating file parsing and updating processes.
+
+Key Concepts
+File Handling: Learn how to read and write files using the with statement and the open() function.
+
+String Manipulation: Use the .split() and .join() methods to convert between strings and lists.
+
+Iterative and Conditional Statements: Build loops and conditionals to process and filter data.
+
+Functions: Encapsulate the algorithm into a reusable function for better code organization and reusability.
