@@ -1,1 +1,33 @@
+This Python script is designed to help you practice debugging skills by identifying and fixing errors in Python code. The activity focuses on tasks such as correcting syntax errors, handling exceptions, and resolving logic errors. The scenario involves a security analyst who needs to ensure that automated processes run smoothly by debugging code.
 
+File Content
+The file LAB_014_Activity.py contains the following sections:
+
+Introduction: Explains the importance of debugging in ensuring that automated processes run smoothly, especially in the context of security analysis.
+
+Tasks:
+
+Task 1: Fix a syntax error in a for loop by adding a missing colon.
+
+Task 2: Correct a syntax error in a list of usernames by ensuring proper formatting.
+
+Task 3: Fix a syntax error in a function call by adding missing parentheses.
+
+Task 4: Debug a loop that checks if a username is approved by fixing variable names and comparison operators.
+
+Task 5: Correct an indexing error by using the correct index to access the last element of a list.
+
+Task 6: Fix syntax and string method errors in code that reads and processes a list of IP addresses.
+
+Task 7: Resolve logic errors in code that assigns patch dates to operating systems.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of debugging skills in Python.
+
+Key Concepts
+Syntax Errors: Learn how to identify and fix common syntax errors, such as missing colons, parentheses, and proper list formatting.
+
+Exceptions: Handle exceptions related to incorrect variable names, indexing, and string methods.
+
+Logic Errors: Identify and resolve logic errors, such as incorrect indexing or conditional statements.
+
+Debugging Strategies: Develop systematic debugging strategies to fix errors one at a time and ensure code runs as intended.
