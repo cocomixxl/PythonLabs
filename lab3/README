@@ -1,1 +1,61 @@
+# Create a Conditional Statement in Python
+
+## Project Overview
+This project involves writing conditional statements in Python to automate security-related tasks. As a security analyst, you will check whether a user's operating system requires an update and investigate login attempts based on approval lists and organizational hours.
+
+## Technologies Used
+- Python
+- Conditional Statements (if, elif, else)
+- Boolean Logic
+- Lists and Comparison Operators
+
+## Key Features
+- Check if an operating system requires an update
+- Determine if login attempts are made by approved users
+- Validate login times based on organizational hours
+- Implement concise and readable conditional logic
+
+## Implementation Details
+1. **Operating System Update Check**  
+   - The script verifies if a user's OS requires an update using `if` and `elif` statements.
+   - If the system is OS 2, no update is needed; otherwise, an update is required.
+
+2. **User Authentication**  
+   - Approved users are stored in a list.
+   - The script checks if the logging-in user exists in the approved list using the `in` operator.
+
+3. **Login Time Validation**  
+   - A boolean variable is used to determine if login attempts are within approved working hours.
+   - The script checks if a login attempt is both from an approved user and within allowed hours.
+
+## Sample Usage
+```python
+approved_list = ["elarson", "bmoreno", "tshah", "sgilmore", "eraab"]
+username = "bmoreno"
+organization_hours = True
+
+if username in approved_list and organization_hours:
+    print("Login attempt made by an approved user during organization hours.")
+else:
+    print("Username not approved or login attempt made outside of organization hours.")
+```
+
+## Lessons Learned
+- How to structure and optimize conditional statements.
+- Using lists for efficient authentication processes.
+- Applying boolean values to automate security-related decision-making.
+
+## Future Improvements
+- Expand the allow list dynamically using a database or external file.
+- Implement logging functionality to track login attempts.
+- Extend the script to include role-based access control.
+
+## How to Use
+1. Clone the repository to your local machine.
+2. Open the Python script and modify the `system`, `approved_list`, and `username` values as needed.
+3. Run the script using Python 3.
+
+---
+This project demonstrates a fundamental cybersecurity automation task using Python, helping analysts enhance security protocols efficiently.
+
 
