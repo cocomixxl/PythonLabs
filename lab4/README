@@ -1,1 +1,57 @@
+# Activity: Create Loops in Python
+
+## Project Overview
+This project focuses on using loops in Python to automate repetitive security tasks. As a security analyst, you may need to analyze multiple network connection attempts, check IP addresses against an allow list, and generate unique employee IDs for a Sales department. This lab helps develop these skills by practicing both `for` and `while` loops.
+
+## Key Concepts Covered
+- Using `for` loops to iterate over a range of numbers
+- Utilizing `while` loops for condition-based iteration
+- Implementing conditional statements inside loops
+- Automating security-related tasks, such as detecting unauthorized IP addresses and generating employee IDs
+
+## Project Breakdown
+### **Task 1: Display Connection Messages**
+- A `for` loop is used to display a message three times, indicating that a connection could not be established.
+
+### **Task 2: Loop with Variable-based Range**
+- The `range()` function is used with a variable to dynamically control the number of connection attempts displayed.
+
+### **Task 3: Using a `while` Loop**
+- A `while` loop is implemented to repeatedly display a connection failure message until a certain condition is met.
+
+### **Task 4: Displaying IP Addresses from a List**
+- A `for` loop iterates over a list of attempted login IP addresses and prints each one.
+
+### **Task 5: Validating IP Addresses**
+- The program compares attempted login IPs against an allow list and prints whether each IP is authorized or not.
+
+### **Task 6: Breaking Loop on Unauthorized IPs**
+- The `break` statement is used to stop the loop if an unauthorized login attempt is detected.
+
+### **Task 7: Generating Employee IDs**
+- A `while` loop is used to generate unique employee IDs that are divisible by 5 and within a given range.
+
+### **Task 8: Adding Alerts in Loop Execution**
+- The program adds a condition to print a warning when only 10 valid employee IDs remain.
+
+## Key Takeaways
+- **Efficiency**: Loops help automate repetitive security tasks, reducing manual effort.
+- **Decision-Making**: Conditional statements within loops allow for dynamic control of execution.
+- **Security Application**: Automating IP address validation and employee ID generation showcases real-world cybersecurity use cases.
+
+## How to Run the Project
+1. Ensure you have Python installed (version 3.x recommended).
+2. Run the script using a Python environment or terminal:
+   ```bash
+   python Activity_Create_loops.py
+   ```
+3. Observe the output messages and how the loops function for different scenarios.
+
+## Future Enhancements
+- Implement logging to track connection attempts and unauthorized access.
+- Expand IP validation to check against a database or external API.
+- Enhance employee ID generation with additional constraints (e.g., department codes).
+
+---
+
 
