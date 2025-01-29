@@ -1,1 +1,37 @@
+This Python script is designed to help you develop an algorithm that automates the process of verifying user access and device assignments. The activity focuses on tasks such as managing lists of approved users and devices, adding and removing users, and using conditional logic to verify user identities and device assignments. The scenario involves a security analyst automating the process of connecting users to their assigned devices.
 
+File Content
+The file Activity_Develop_an_algorithm.py contains the following sections:
+
+Introduction: Explains the importance of algorithms in solving problems, particularly in the context of security analysts who need to verify user access and device assignments.
+
+Tasks:
+
+Task 1: Explore how indices in lists work by displaying elements from approved_users and approved_devices.
+
+Task 2: Add a new user and their device ID to the approved_users and approved_devices lists using the .append() method.
+
+Task 3: Remove a user and their device ID from the approved_users and approved_devices lists using the .remove() method.
+
+Task 4: Write a conditional statement to check if a given username is approved to access the system.
+
+Task 5: Use the .index() method to find the index of a username in the approved_users list.
+
+Task 6: Use the index of a username to display the corresponding device ID from the approved_devices list.
+
+Task 7: Write a conditional statement to check if a username and device ID correspond to each other.
+
+Task 8: Add an elif statement to handle cases where the username is approved but the device ID is incorrect.
+
+Task 9: Define a function named login that automates the login process using nested conditionals.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of indexing, conditional logic, and list operations in developing algorithms.
+
+Key Concepts
+List Operations: Learn how to add and remove elements from lists using .append() and .remove().
+
+Indexing: Use indices to access elements in lists and connect related information across multiple lists.
+
+Conditional Logic: Use if, elif, and else statements to handle different scenarios based on conditions.
+
+Functions: Define and call functions to automate repetitive tasks and improve code organization.
