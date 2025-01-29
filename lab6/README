@@ -1,1 +1,76 @@
+This Python script is designed to help you understand how to define and call functions in Python. The activity focuses on creating reusable code blocks, using loops within functions, and manipulating strings to improve output readability. The scenario involves a security analyst automating tasks related to security alerts and managing a list of approved usernames.
 
+File Content
+The file Activity_Define_and_call_a_function.py contains the following sections:
+
+Introduction: Explains the importance of functions in Python, especially for security analysts who need to automate repetitive tasks.
+
+Tasks:
+
+Task 1: Define a simple function named alert() that prints a security alert message.
+
+Task 2: Call the alert() function and discuss the advantages of using functions.
+
+Task 3: Modify the alert() function to print the alert message multiple times using a for loop.
+
+Task 4: Define a function named list_to_string() to convert a list of usernames into a single string.
+
+Task 5: Implement the body of the list_to_string() function to display each username in the list.
+
+Task 6: Use string concatenation to combine the usernames into a single string and print the result.
+
+Task 7: Improve the readability of the output by adding commas and spaces between usernames.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of functions, loops, and proper string formatting.
+
+Key Concepts
+Functions: Learn how to define and call functions to make your code reusable and organized.
+
+Loops: Use for loops to iterate through lists and perform repetitive tasks.
+
+String Manipulation: Combine strings using concatenation and format them for better readability.
+
+How to Use
+Open the Activity_Define_and_call_a_function.py file in a Python environment (e.g., Jupyter Notebook, VS Code, or any Python IDE).
+
+Run each code cell sequentially to see the output and understand how each function works.
+
+Modify the code as needed to experiment with different functionalities.
+
+Dependencies
+Python 3.x
+
+No additional libraries are required.
+
+Example Output
+Task 2:
+
+Copy
+Potential security issue. Investigate further.
+Task 3:
+
+Copy
+Potential security issue. Investigate further.
+Potential security issue. Investigate further.
+Potential security issue. Investigate further.
+Task 5:
+
+Copy
+elarson
+bmoreno
+tshah
+sgilmore
+eraab
+gesparza
+alevitsk
+wjaffrey
+Task 7:
+
+Copy
+elarson, bmoreno, tshah, sgilmore, eraab, gesparza, alevitsk, wjaffrey
+Key Takeaways
+Functions improve code reusability and organization.
+
+Loops efficiently process lists and perform repetitive tasks.
+
+String formatting enhances the readability of structured data output.
