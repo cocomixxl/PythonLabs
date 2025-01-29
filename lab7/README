@@ -1,1 +1,42 @@
+This Python script is designed to help you practice working with strings, a fundamental data type in Python. The activity focuses on tasks such as converting data types, using string slicing and indexing, applying conditional logic, and leveraging methods like .index() to manipulate and extract information from strings. The scenario involves a security analyst automating tasks related to employee IDs, device IDs, and URLs.
+
+File Content
+The file Activity_Work_with_strings_in_Python.py contains the following sections:
+
+Introduction: Explains the importance of working with strings in Python, especially for security analysts who deal with IDs and network activity stored as string data.
+
+Tasks:
+
+Task 1: Convert a four-digit employee ID from an integer to a string.
+
+Task 2: Write a conditional statement to check if the employee ID is less than five digits and display a message if it is.
+
+Task 3: Use string concatenation to create a five-digit employee ID by adding a prefix if the ID is less than five digits.
+
+Task 4: Extract the fourth character from a device ID.
+
+Task 5: Extract the first through third characters from a device ID using string slicing.
+
+Task 6: Extract the protocol and :// characters from a URL.
+
+Task 7: Use the .index() method to find the starting index of the domain extension .com in a URL.
+
+Task 8: Store the index of the domain extension in a variable for later use.
+
+Task 9: Extract the domain extension .com from the URL using string slicing.
+
+Task 10: Extract the website name from the URL using string slicing.
+
+Conclusion: Summarizes the key takeaways from the lab, emphasizing the importance of string manipulation techniques in Python.
+
+Key Concepts
+String Conversion: Learn how to convert data types (e.g., integer to string) using str().
+
+Conditional Statements: Use if statements to check conditions and execute code based on the result.
+
+String Concatenation: Combine strings using the + operator.
+
+String Slicing and Indexing: Extract specific characters or substrings from a string using indexing and slicing.
+
+String Methods: Use methods like .index() to find the position of a substring within a string.
 
